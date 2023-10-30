@@ -7,9 +7,9 @@ function toogleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Carlos")
+    img.setAttribute("alt", "Artwork Tommy Vercetti.")
   } else {
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Julia")
+    img.setAttribute("alt", "Artwork de Diego Mendez.")
   }
 }
